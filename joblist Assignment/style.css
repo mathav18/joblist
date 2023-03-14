@@ -1,0 +1,175 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    background-color: rgb(219, 248, 247);
+    font-family: 'League Spartan', sans-serif;
+}
+
+#whole{
+    width:100%;
+    height:100%;
+}
+
+
+#top{
+    width:100%;
+    height:20%;
+    background-color: rgb(65, 136, 136);
+}
+
+#search{
+    width:70%;
+    height:8%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -40px;
+    position: relative;
+    border-radius:10px;
+    margin-left:15%;
+    display: grid;
+    grid-template-columns:80% 18% 2%;
+    grid-template-rows: 100%;
+}
+#display{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-column-start: 1;
+}
+#clear{
+    border: none;
+    background-color: white;
+    color:rgb(0, 180, 180);
+    font-size:25px;
+    cursor: pointer;
+}
+img{
+    width:100%;
+    height:100%;
+}
+#feeds{
+    width:100%;
+    height:80%;
+    background-color: rgb(219, 248, 247);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    overflow: scroll;
+}
+
+.main{
+    width:70%;
+   min-height:20%;
+    margin-top:30px;
+    background-color: rgb(246, 253, 255);
+    display: grid;
+    grid-template-columns:15% 30% 55%;
+    grid-template-rows: 100%;
+    place-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(87, 153, 168, 0.5) 0px 8px 24px;
+}
+.main:hover{
+    border-left:5px solid #63BABA;
+    box-shadow: rgb(156, 187, 203) 0px 18px 24px;
+}
+
+#avatarImg{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+}
+
+#userData{
+    width:100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:30% 30% 40%  ;
+}
+
+#fst{
+    width:100%;
+    height:100%;
+   display: flex;
+   align-items: flex-end;
+   color: #5CA5A5;
+   font-size:20px;
+}
+
+#sec{
+    width:100%;
+    height:100%;
+    display: flex;
+   align-items: flex-end;
+}
+
+#third{
+    width:100%;
+    height:100%;
+    word-spacing: 10px;
+    display: flex;
+    align-items: center;
+}
+#newDiv,#newDiv2{
+  padding:10px;
+  background-color: #5CA5A5;
+  color: white;
+ border-radius:15px;
+ font-size:20px;
+ margin:-10px 18px;
+}
+#newDiv2{
+    background-color: black;
+    color:white;
+}
+
+#lan{
+    width:80%;
+    height:100%;
+    grid-column-start: 3;
+    display: flex;
+    justify-content: flex-end;
+     align-items: center;
+}
+
+#datails{
+   padding:8px 8px;
+   background-color: #e8f6ff;
+   float:right;
+   margin-left:10px;
+   border-radius: 5px;
+  font-size:25px;
+  color:#5CA5A5;
+  cursor: pointer;
+}
+#query{
+    width:auto;
+    padding-left:20px;
+    height:40px;
+    border-radius:5px;
+    color:#5CA5A5;
+    display: grid;
+   grid-template-columns:60% 40%;
+   grid-template-rows:100% ;
+   place-items: center;
+   background-color: #e8f6ff;
+}
+#remo{
+ width:50px;
+ height:40px;
+ border: none;
+ background-color: #61b7b7;
+ color:white;
+ font-size: 30px;
+ font-weight: bolder;
+ margin-left:20px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ cursor: pointer;
+}
+#remo:hover{
+    background-color: black;
+}
